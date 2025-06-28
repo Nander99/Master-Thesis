@@ -1,0 +1,4 @@
+Total questions: 5989
+Average question length (words): 20.52
+Average number of words per choice: 4.13
+Class distribution: {'upper': 0.6421773250960093, 'lower': 0.35782267490399067}

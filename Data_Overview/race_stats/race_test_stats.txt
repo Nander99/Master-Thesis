@@ -1,0 +1,5 @@
+Total questions: 5587
+Avg. question length (words): 10.19
+Avg. passage length (words): 279.32
+Avg. words per choice: 5.64
+Class distribution: {'high': 0.744406658313943, 'middle': 0.2555933416860569}
