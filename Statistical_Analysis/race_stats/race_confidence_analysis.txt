@@ -1,0 +1,20 @@
+=== Summary of Entropy and Confidence by Difficulty ===
+             entropy  confidence_correct
+difficulty                              
+high        0.605383            0.534453
+middle      0.538209            0.603789
+
+=== Correlation Analysis ===
+Entropy vs Difficulty (Pearson): weak positive correlation (significant, r = 0.097, p = 3.86e-13)
+Confidence vs Difficulty (Pearson): weak negative correlation (significant, r = -0.097, p = 2.96e-13)
+Entropy vs Difficulty (Spearman): weak positive correlation (significant, r = 0.070, p = 1.85e-07)
+Confidence vs Difficulty (Spearman): small negative correlation (significant, r = -0.108, p = 6.83e-16)
+
+=== Correlation Between Entropy and Confidence ===
+Pearson: strong negative correlation (significant, r = -0.756, p = 0)
+Spearman: strong negative correlation (significant, r = -0.733, p = 0)
+
+
+=== T-Test Results ===
+T-test for Entropy (middle vs high): significant difference (middle < high, t = -6.660, p = 3.46e-11)
+T-test for Confidence (middle vs high): significant difference (middle > high, t = 7.147, p = 1.17e-12)

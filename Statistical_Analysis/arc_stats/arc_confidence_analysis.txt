@@ -1,0 +1,19 @@
+=== Summary of Entropy and Confidence by Grade Group ===
+              entropy  confidence_correct
+grade_group                              
+lower        0.382390            0.715333
+upper        0.463615            0.604362
+
+=== Correlation Analysis ===
+Entropy vs Grade Group (Pearson): small positive correlation (significant, r = 0.119, p = 3.85e-06)
+Confidence vs Grade Group (Pearson): small negative correlation (significant, r = -0.158, p = 7.58e-10)
+Entropy vs Grade Group (Spearman): small positive correlation (significant, r = 0.125, p = 1.25e-06)
+Confidence vs Grade Group (Spearman): small negative correlation (significant, r = -0.161, p = 3.92e-10)
+
+=== Correlation Between Entropy and Confidence ===
+Pearson: strong negative correlation (significant, r = -0.750, p = 2.3e-270)
+Spearman: strong negative correlation (significant, r = -0.819, p = 0)
+
+=== T-Test Results ===
+Entropy: significant difference (lower < upper, t = -4.664, p = 3.47e-06)
+Confidence: significant difference (lower > upper, t = 6.377, p = 2.57e-10)
